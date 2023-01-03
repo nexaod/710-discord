@@ -295,12 +295,14 @@ const DevChannels = {
     achievementsAndLogs: '1058275396208054402',
     botRoleLog: '1058275602060288101',
     commandInfo: '1059741811343634452',
+    trialInformation: '1057867191971741752',
 }
 
 const ProdChannels = {
     achievementsAndLogs: '1058373790289109092',
     botRoleLog: '1058373508314431528',
     commandInfo: '1058616978719395891',
+    trialInformation: '722678356411285584',
 }
 
 const DevRoles: any = {

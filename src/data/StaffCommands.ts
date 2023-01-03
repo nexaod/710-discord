@@ -35,7 +35,7 @@ export const staffCommandData: StaffCommandData[] = [
                     },
                     {
                         title: "Supported Roles",
-                        value: "All trialable roles outlined in <#>"
+                        value: `All trialable roles outlined in <#${Channels.trialInformation}>`
                     },
                     {
                         title: "Usage",
