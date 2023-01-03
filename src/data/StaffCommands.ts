@@ -4,8 +4,23 @@ import { Channels, Roles } from "../../src/Utils";
 export const staffCommandData: StaffCommandData[] = [
     {
         title: "Role Assignment",
-        description: `Role Assignment is broken into two main commands to assign **Cosmetic** and **Trialed** roles.\n\nBoth commands will create a post in <#${Channels.achievementsAndLogs}> and assign the corresponding role to the user.`,
+        description: `Role Assignment occurs through a variety of commands.\n\nAll commands will create a post in <#${Channels.achievementsAndLogs}> and assign the corresponding role to the user.\n\n> All commands can be used in any channel. The bot response is only visible to you.`,
         commands: [
+            {
+                title: "Trialee",
+                description: `Assigns the ${Roles.trialee} role to a user approved from sign-up.`,
+                sections: [
+                    {
+                        title: "Permissions",
+                        value: `${Roles.applicationTeam}+`
+                    },
+                    {
+                        title: "Usage",
+                        value: `\`/approve-trialee\` \`[user]\``
+                    }
+                ],
+                image: "https://media.discordapp.net/attachments/1027186342620299315/1059837376744148992/image.png"
+            },
             {
                 title: "Cosmetic",
                 description: "Assigns a Cosmetic role to a user.",
