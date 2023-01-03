@@ -1,6 +1,5 @@
 import { Client, EmbedBuilder, TextChannel } from "discord.js";
 import { Channels, Colours, purgeChannel } from "./Utils";
-// import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 import { staffCommandData } from "./data/StaffCommands";
 import { Section } from "./types";
 
