@@ -340,6 +340,7 @@ const DevRoles: any = {
     mockTrialFiller: '<@&1057867190637953031>',
     trialTeam: '<@&1057867190650540089>',
     applicationTeam: '<@&1057867190684110884>',
+    trialeeTeacher: '<@&1057867190684110886>',
 }
 
 const ProdRoles: any = {
@@ -377,6 +378,7 @@ const ProdRoles: any = {
     mockTrialFiller: '<@&724464712217264208>',
     trialTeam: '<@&469546608531472385>',
     applicationTeam: '<@&968901102911246377>',
+    trialeeTeacher: '<@&664351536583016459>',
 }
 
 export const Roles = environment === 'PRODUCTION' ? ProdRoles : DevRoles;
