@@ -17,3 +17,17 @@ export interface StaffCommandData {
   sections?: Section[];
   image?: string;
 }
+
+export interface MockTrialData {
+  title: string;
+  colour: number;
+  roles: Role[];
+  image: string;
+}
+
+export interface Role {
+  name: string;
+  entry: string;
+  expected: string;
+  description: string;
+}

@@ -5,7 +5,9 @@ const environment = process.env.ENVIRONMENT === 'PRODUCTION' ? 'PRODUCTION' : 'D
 export const purgeChannel = async (channel: TextChannel) => {
     const messages = await channel.messages.fetch({ limit: 100 });
     for await (const [_id, message] of messages) {
-        await message.delete();
+        if (!message.pinned) {
+            await message.delete();
+        }
     }
 }
 
@@ -296,6 +298,15 @@ const DevChannels = {
     botRoleLog: '1058275602060288101',
     commandInfo: '1059741811343634452',
     trialInformation: '1057867191971741752',
+    mockInfo: '1063488766498578563',
+}
+
+const ProdMessages = {
+    mockTrialReacts: '1063751932675637299',
+}
+
+const DevMessages = {
+    mockTrialReacts: '1063729249460174858'
 }
 
 const ProdChannels = {
@@ -303,6 +314,7 @@ const ProdChannels = {
     botRoleLog: '1058373508314431528',
     commandInfo: '1058616978719395891',
     trialInformation: '722678356411285584',
+    mockInfo: '1062976399280984114',
 }
 
 const DevRoles: any = {
@@ -341,6 +353,7 @@ const DevRoles: any = {
     trialTeam: '<@&1057867190650540089>',
     applicationTeam: '<@&1057867190684110884>',
     trialeeTeacher: '<@&1057867190684110886>',
+    vulner: '<@&1063738043997098006>',
 }
 
 const ProdRoles: any = {
@@ -358,15 +371,15 @@ const ProdRoles: any = {
     ofThePraesul: '<@&474307399851835414>',
     goldenPraesul: '<@&589268459502960642>',
     trialee: '<@&666034554150322200>',
-    magicMT: '<@&926622122489561188>',
-    magicFree: '<@&926622517769142282>',
-    magicBase: '<@&926622383052296283>',
+    magicMT: '<@&1063137065673429022>',
+    magicFree: '<@&1063137532268781578>',
+    magicBase: '<@&1063137403998589108>',
     magicUmbra: '<@&932006805528268912>',
-    rangeMT: '<@&926621263332540446>',
-    rangeFree: '<@&926621934169522226>',
-    rangeBase: '<@&926621810806636594>',
+    rangeMT: '<@&1063136067949178960>',
+    rangeFree: '<@&1063136973042229358>',
+    rangeBase: '<@&1063136409621377024>',
     rangeUmbra: '<@&934920570921967686>',
-    chinner: '<@&926621575296475260>',
+    chinner: '<@&1063136286325616730>',
     meleeMT: '<@&926622693908946974>',
     meleeFree: '<@&926623795475787807>',
     meleeBase: '<@&926623603150164008>',
@@ -379,8 +392,17 @@ const ProdRoles: any = {
     trialTeam: '<@&469546608531472385>',
     applicationTeam: '<@&968901102911246377>',
     trialeeTeacher: '<@&664351536583016459>',
+    vulner: '<@&1063144624912351342>',
 }
+
+const ProdGuildId = '315710189762248705';
+
+const DevGuildId = '1057867190579253329';
 
 export const Roles = environment === 'PRODUCTION' ? ProdRoles : DevRoles;
 
+export const GuildId = environment === 'PRODUCTION' ? ProdGuildId : DevGuildId;
+
 export const Channels = environment === 'PRODUCTION' ? ProdChannels : DevChannels;
+
+export const Messages = environment === 'PRODUCTION' ? ProdMessages : DevMessages;

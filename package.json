@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "staffCommands": "ts-node src/StaffCommands.ts"
+    "staffCommands": "ts-node src/StaffCommands.ts",
+    "mockFillers": "ts-node src/MockFillers.ts"
   },
   "dependencies": {
     "@types/node": "^18.7.23",
