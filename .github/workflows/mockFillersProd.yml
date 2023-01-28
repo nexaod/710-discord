@@ -8,8 +8,8 @@ on:
     branches:
       - 'main'
     paths:
-      - '**data/mockFillers.ts'
-      - '**mockFillers.ts'
+      - '**data/MockFillers.ts'
+      - '**MockFillers.ts'
 
 jobs:
   build:
