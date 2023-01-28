@@ -1,5 +1,5 @@
 import { Client, EmbedBuilder, TextChannel } from "discord.js";
-import { Channels, purgeChannel, Roles, Colours, GuildId, Messages } from "./Utils";
+import { Channels, purgeChannel, Roles, Colours } from "./Utils";
 import { mockFillerData } from "./data/MockFillers";
 
 const token = process.env.DISCORD_TOKEN; // add your token here
@@ -24,11 +24,6 @@ client.on("ready", async () => {
         .setFooter({ text: 'Last Updated' })
         .setTimestamp();
     const fields: any = [];
-    fields.push({
-        name: 'Role Reaction',
-        value: `[Link](https://discord.com/channels/${GuildId}/${Channels.mockInfo}/${Messages.mockTrialReacts})`,
-        inline: true
-    })
     for await (const item of mockFillerData) {
         const tocField: any = {
             name: item.title,

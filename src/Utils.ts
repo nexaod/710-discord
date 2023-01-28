@@ -302,7 +302,7 @@ const DevChannels = {
 }
 
 const ProdMessages = {
-    mockTrialReacts: '1063751932675637299',
+    mockTrialReacts: '1068883458253922347',
 }
 
 const DevMessages = {
@@ -314,7 +314,7 @@ const ProdChannels = {
     botRoleLog: '1058373508314431528',
     commandInfo: '1058616978719395891',
     trialInformation: '722678356411285584',
-    mockInfo: '1062976399280984114',
+    mockInfo: '1068881120319504486',
 }
 
 const DevRoles: any = {
