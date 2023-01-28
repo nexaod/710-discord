@@ -2,7 +2,7 @@ import { Client, EmbedBuilder, TextChannel } from "discord.js";
 import { Channels, purgeChannel, Roles, Colours } from "./Utils";
 import { mockFillerData } from "./data/MockFillers";
 
-const token = process.env.DISCORD_TOKEN;
+const token = process.env.DISCORD_TOKEN; // add your token here
 
 console.log("Bot is starting...");
 
