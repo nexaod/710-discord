@@ -2,7 +2,7 @@ import { Client, EmbedBuilder, TextChannel } from "discord.js";
 import { Channels, purgeChannel, Roles, Colours } from "./Utils";
 import { mockFillerData } from "./data/MockFillers";
 
-const token = process.env.DISCORD_TOKEN; // add your token here
+const token = process.env.DISCORD_TOKEN;
 
 console.log("Bot is starting...");
 
@@ -16,7 +16,7 @@ client.on("ready", async () => {
     if (!client.user || !client.application) {
         return;
     }
-    const channel = await client.channels.fetch(Channels.mockInfo) as TextChannel;
+    const channel = await client.channels.fetch(Channels.trialDamageRequirements) as TextChannel;
     await purgeChannel(channel);
     const tocEmbed = new EmbedBuilder()
         .setTitle('Table of Contents')

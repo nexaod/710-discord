@@ -299,6 +299,7 @@ const DevChannels = {
     commandInfo: '1059741811343634452',
     trialInformation: '1057867191971741752',
     mockInfo: '1063488766498578563',
+    trialDamageRequirements: '1063488766498578563',
 }
 
 const ProdMessages = {
@@ -315,6 +316,7 @@ const ProdChannels = {
     commandInfo: '1058616978719395891',
     trialInformation: '722678356411285584',
     mockInfo: '1068881120319504486',
+    trialDamageRequirements: '1068880827766804480',
 }
 
 const DevRoles: any = {
