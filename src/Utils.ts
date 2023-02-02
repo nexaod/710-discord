@@ -21,6 +21,7 @@ export const Colours = {
     default: 5198940,
     lightblue: 302332,
     darkgrey: 333333,
+    lightpink: 10517660,
     discord: {
         green: 5763719,
         red: 15548997
@@ -300,6 +301,7 @@ const DevChannels = {
     trialInformation: '1057867191971741752',
     mockInfo: '1063488766498578563',
     trialDamageRequirements: '1063488766498578563',
+    passingAndFailing: '1070674239973244938',
 }
 
 const ProdMessages = {
@@ -317,6 +319,7 @@ const ProdChannels = {
     trialInformation: '722678356411285584',
     mockInfo: '1068881120319504486',
     trialDamageRequirements: '1068880827766804480',
+    passingAndFailing: '1068880351579078766',
 }
 
 const DevRoles: any = {
