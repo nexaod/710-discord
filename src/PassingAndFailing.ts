@@ -1,6 +1,6 @@
 import { Client, EmbedBuilder, TextChannel } from "discord.js";
 import { Channels, purgeChannel, Roles, Colours } from "./Utils";
-import { passingData } from "./data/PassingAndFailing";
+import { passingData } from "./data/Trials/PassingAndFailing";
 
 const token = process.env.DISCORD_TOKEN;
 

@@ -1,6 +1,6 @@
 import { Client, EmbedBuilder, TextChannel } from "discord.js";
 import { Channels, purgeChannel, Roles, Colours } from "./Utils";
-import { mockFillerData } from "./data/MockFillers";
+import { mockFillerData } from "./data/Trials/DamageReqs";
 
 const token = process.env.DISCORD_TOKEN;
 

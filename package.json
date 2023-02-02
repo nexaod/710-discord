@@ -1,7 +1,7 @@
 {
   "scripts": {
     "staffCommands": "ts-node src/StaffCommands.ts",
-    "mockFillers": "ts-node src/MockFillers.ts",
+    "damageReqs": "ts-node src/DamageReqs.ts",
     "passingAndFailing": "ts-node src/PassingAndFailing.ts"
   },
   "dependencies": {

@@ -1,4 +1,4 @@
-import { Roles, Emojis, Colours } from "../../src/Utils";
+import { Roles, Emojis, Colours } from "../../Utils";
 import { MockTrialData } from "src/types";
 
 export const mockFillerData: MockTrialData[] = [

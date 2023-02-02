@@ -1,4 +1,4 @@
-import { Colours } from "../../src/Utils";
+import { Colours } from "../../Utils";
 
 export const passingData = [
     {
