@@ -2,7 +2,8 @@
   "scripts": {
     "staffCommands": "ts-node src/StaffCommands.ts",
     "damageReqs": "ts-node src/DamageReqs.ts",
-    "passingAndFailing": "ts-node src/PassingAndFailing.ts"
+    "passingAndFailing": "ts-node src/PassingAndFailing.ts",
+    "generalInfo": "ts-node src/GeneralInfo.ts"
   },
   "dependencies": {
     "@types/node": "^18.7.23",

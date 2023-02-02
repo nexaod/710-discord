@@ -302,6 +302,7 @@ const DevChannels = {
     mockInfo: '1063488766498578563',
     trialDamageRequirements: '1063488766498578563',
     passingAndFailing: '1070674239973244938',
+    generalInfo: '1070725674513485918',
 }
 
 const ProdMessages = {
@@ -320,6 +321,7 @@ const ProdChannels = {
     mockInfo: '1068881120319504486',
     trialDamageRequirements: '1068880827766804480',
     passingAndFailing: '1068880351579078766',
+    generalInfo: '1068881120319504486',
 }
 
 const DevRoles: any = {
@@ -359,6 +361,8 @@ const DevRoles: any = {
     applicationTeam: '<@&1057867190684110884>',
     trialeeTeacher: '<@&1057867190684110886>',
     vulner: '<@&1063738043997098006>',
+    nexAoDFCMember: '<@&1057867190608597070>',
+    sevenMan: '<@&1057867190650540084>',
 }
 
 const ProdRoles: any = {
@@ -398,6 +402,8 @@ const ProdRoles: any = {
     applicationTeam: '<@&968901102911246377>',
     trialeeTeacher: '<@&664351536583016459>',
     vulner: '<@&1063144624912351342>',
+    nexAoDFCMember: '<@&644269097558867968>',
+    sevenMan: '<@&337723869508927489>',
 }
 
 const ProdGuildId = '315710189762248705';
