@@ -127,10 +127,6 @@ export const passingData = [
                 name: 'Vulner',
                 fields: [
                     {
-                        name: '`Damage Requirement:` 5200k',
-                        value: ' '
-                    },
-                    {
                         name: '__Mechanic Expectations__',
                         value: `⬥ Role expectations as listed above\n\u200B⬥ Less than 3 entirely missed <:vulnbomb:655341074235129858>\n\u200B⬥ Less than 5 late <:vulnbomb:655341074235129858> (<50k pillar hp)\u200B`
                     },
