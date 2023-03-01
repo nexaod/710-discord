@@ -9,7 +9,7 @@ export const generalInfoData = [
     {
         title: 'Mock Trials',
         colour: Colours.gold,
-        description: `⬥ Mock trials are for learning, experiencing faster teams and gaining feedback.\n\u200B⬥ Trialees **DO NOT** receive tag unless performing exceptionally well.\n\u200B⬥ Exceptional performance is judged by the ${Roles.trialHost}\n\u00a0\u00a0\u00a0\u00a0• e.g. A trialee hits ${Roles.trialTeam} expected damage.`
+        description: `⬥ Mock trials are for learning, experiencing faster teams and gaining feedback.\n\u200B⬥ Trialees are able to receive tag on mock trials.\n\u200B⬥ Receiving tag is judged by the ${Roles.trialHost}\n\u00a0\u00a0\u00a0\u00a0• e.g. A trialee hits expected damage.`
     },
     {
         title: 'Real Trials',
